@@ -1,0 +1,14 @@
+OK.
+
+Details on the AML M7220 thing:
+
+- Their SDK uses 'buildroot' to handle the cross-compile shiz
+
+- When I build using their sources and 'make menuconfig' I get a kernel with VGA (yay) that won't boot. (boo)
+
+- This is using a stock Deb ARM kernel and AML's ramdisk image (http://www.amltd.com/firmweb/Downloads/M7220/Firmware/v1-0-14.m7x)
+-- AML's kernel gives a black screen and nothing else.
+
+- I have an email in to their dev support outlining the probs I saw y/day, asking for access to a more up-to-date ( > ca. 2008)
+
+- run the 'run.sh' script to boot
